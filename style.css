@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    height: 100vh;   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: rgb(133, 136, 136);
+    align-items: center;
+    border-bottom: purple 2px solid;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav ul{
+display: flex;
+list-style: none;
+}
+.nav ul li{
+    margin: 0.5rem;
+    font-size: smaller;
+    color: darkturquoise;
+}
+.header h2{
+    color: white;  
+}
+.header span{
+    color: purple;
+}
+.main{
+    display: grid;
+    grid-template-rows: 5fr 1fr 4fr;  
+}
+.section{
+    display: flex;
+    text-align: center;
+    background-image: url(./img/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    margin: auto;
+}
+.title h1{
+    color: white;
+    margin-bottom: 1rem;
+}
+.title h5{
+    color: white;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(133, 136, 136);
+}
+.form-input button{
+    background-color: orangered;
+    border: none;
+    padding: 0.5rem;
+}
+.form-input input{
+    padding: 0.5rem;
+}
+.lessons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    text-align: center;
+}
+.lessons img{
+    width: 5rem;
+    margin: auto;
+}
+.lesson{
+    margin: 1rem;
+}
+.footer{
+    background-color: rgb(133, 136, 136);
+    display: flex;
+    padding: 0.5rem;
+}
+.logo{
+    margin: auto;
+    text-align: center;
+}
+.logo img{
+    width: 8rem;
+    margin-top: 0.5rem;
+}
+.logo h5{
+    color: white;
+}
