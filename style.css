@@ -28,7 +28,8 @@ list-style: none;
     color: darkturquoise;
 }
 .header h2{
-    color: white;  
+    color: white; 
+    margin-left: 0.5rem; 
 }
 .header span{
     color: purple;

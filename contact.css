@@ -41,7 +41,7 @@ list-style: none;
     padding: 1rem;
     background-color: rgb(133, 136, 136);
 }
-.form-input button{
+button{
     background-color: orangered;
     border: none;
     padding: 0.5rem;
@@ -70,13 +70,14 @@ list-style: none;
 #contact{
     background-color: rgb(180, 171, 171);
     padding: 1rem; 
-    margin: auto;
+    justify-content: center;
+    
 }
 #contact input{
-    width: 90%;
+    width: 95%;
 }
 #contact textarea{
-    width: 90%;
+    width: 95%;
 }
 
 
